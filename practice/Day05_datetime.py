@@ -1,4 +1,5 @@
 import datetime
+import pytz
 
 today = datetime.date.today()
 print(today)
@@ -28,4 +29,28 @@ print(datetime.time(7, 2, 20, 15))
 #10 hours added current time
 hour_delta = datetime.timedelta(hours=10)
 print(datetime.datetime.now() + hour_delta)
+
+
+#use pytz
+datetime_today = datetime.datetime.now(tz=pytz.UTC)
+datetime_pacific = datetime_today.astimezone(pytz.timezone('US/Pacific'))
+print(datetime_pacific)
+
+'''
+for tz in pytz.all_timezones:
+    print(tz)
+'''
+
+#string formatting with dates
+#2020-02-03 -> February 3, 2020
+
+print(datetime_today.strftime('%B %d, %Y'))
+
+datetime_thing = datetime.datetime.strptime('February 03, 2020', '%B %d, %Y')
+print(datetime_thing)
+print(repr(datetime_thing))
+
+
+
+
 
