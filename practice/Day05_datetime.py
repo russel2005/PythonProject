@@ -50,7 +50,3 @@ datetime_thing = datetime.datetime.strptime('February 03, 2020', '%B %d, %Y')
 print(datetime_thing)
 print(repr(datetime_thing))
 
-
-
-
-
