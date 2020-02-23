@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unittest/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/test_calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/test_employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/test_employee2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordcount/templates/count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordcount/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordcount/wordcount/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/Day07_Zip_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Day07_Zip_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Day04_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Day04_list.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/Day07_Zip_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice/Day07_Tic_Tac_Toe.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/unittest/calc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -57,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittest/test_calc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="646">
               <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -70,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/unittest/employee.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -78,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittest/test_employee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="459">
               <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -87,11 +76,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittest/test_employee2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Day04_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/list_of_email_split_and_extract_name.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -131,6 +138,8 @@
         <option value="$PROJECT_DIR$/unittest/employee.py" />
         <option value="$PROJECT_DIR$/unittest/test_employee.py" />
         <option value="$PROJECT_DIR$/unittest/test_employee2.py" />
+        <option value="$PROJECT_DIR$/practice/Day04_list.py" />
+        <option value="$PROJECT_DIR$/practice/list_of_email_split_and_extract_name.py" />
       </list>
     </option>
   </component>
@@ -158,6 +167,11 @@
               <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
@@ -195,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_employee">
+  <component name="RunManager" selected="Python.list_of_email_split_and_extract_name">
     <configuration name="Day07_Generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day07_Zip_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="list_of_email_split_and_extract_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +267,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/Day07_Zip_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/list_of_email_split_and_extract_name.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.list_of_email_split_and_extract_name" />
         <item itemvalue="Python.test_employee" />
         <item itemvalue="Python.test_calc" />
         <item itemvalue="Python.Day07_Generators" />
         <item itemvalue="Python.Day07_Tic_Tac_Toe" />
-        <item itemvalue="Python.Day07_Zip_functions" />
       </list>
     </recent_temporary>
   </component>
@@ -330,6 +344,7 @@
       <workItem from="1580948582416" duration="1378000" />
       <workItem from="1580953682327" duration="15157000" />
       <workItem from="1581120878617" duration="5974000" />
+      <workItem from="1582470230623" duration="2195000" />
     </task>
     <task id="LOCAL-00001" summary="modified Day05 files">
       <created>1580784999292</created>
@@ -366,22 +381,29 @@
       <option name="project" value="LOCAL" />
       <updated>1581050717152</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add list_of_email_split_and_extract_name.py">
+      <created>1582470994881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582470994881</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27501000" />
+    <option name="totallyTimeSpent" value="29696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26590756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,7 +412,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32909605" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -408,7 +430,8 @@
     <MESSAGE value="add webscraping" />
     <MESSAGE value="add tic tac toe" />
     <MESSAGE value="add generators.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add generators.py" />
+    <MESSAGE value="add list_of_email_split_and_extract_name.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list_of_email_split_and_extract_name.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,7 +451,8 @@
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Generators.coverage" NAME="Day07_Generators Coverage Results" MODIFIED="1581050662180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Zip_functions.coverage" NAME="Day07_Zip_functions Coverage Results" MODIFIED="1581041766735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1581130029317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
-    <SUITE FILE_PATH="coverage/PythonProject$test_employee.coverage" NAME="test_employee Coverage Results" MODIFIED="1581131103241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
+    <SUITE FILE_PATH="coverage/PythonProject$list_of_email_split_and_extract_name.coverage" NAME="list_of_email_split_and_extract_name Coverage Results" MODIFIED="1582473225096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/PythonProject$test_employee.coverage" NAME="test_employee Coverage Results" MODIFIED="1582470618938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/practice/Day04_regex.py">
@@ -460,6 +484,9 @@
         <state relative-caret-position="-2803" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/unittest2/calc.py" />
+    <entry file="file://$PROJECT_DIR$/unittest2/test_calc.py" />
     <entry file="file://$PROJECT_DIR$/practice/Day07_Zip_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -474,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/tips_and_tricks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/Day07_Generators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -491,20 +511,13 @@
     <entry file="file://$PROJECT_DIR$/unittest/calc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/employee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittest/test_calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="646">
           <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -512,24 +525,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest2/calc.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest2/test_calc.py">
+    <entry file="file://$PROJECT_DIR$/unittest/employee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittest/test_employee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="459">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -537,10 +542,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice/tips_and_tricks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unittest/test_employee2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Day04_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/list_of_email_split_and_extract_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
