@@ -17,3 +17,10 @@ print(emp_2.email)
 
 print('{} {}'.format(emp_1.first, emp_1.last))
 print(emp_1.fullname)
+
+
+###
+emp_1.fullname()
+#or
+Employee.fullname(emp_1)
+## above both are same
