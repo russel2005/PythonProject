@@ -32,5 +32,12 @@ print(str(my_file.readline())) #read firstline only
 my_file.close()
 
 
-############
+############ using with don't need to worry about the close the file.
+print("with as write start")
+with open("firstfile.txt", "w") as with_as_write:
+    with_as_write.write(" this an example of with as wrirte")
 
+
+print("with as read start")
+with open("firstfile.txt", "r") as with_as_read:
+    print(str(with_as_read.read()))
