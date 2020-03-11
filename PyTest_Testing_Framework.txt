@@ -1,0 +1,19 @@
+PyTest Testing Framework:
+
+install pytest > pip install pytest
+version > pytest --version
+
+naming convention:
+1) when you add any python test script, it must start with "test_"
+ex: test_demo1.py
+
+----------------------
+def test_firstProgram():
+    print("Hello")
+----------------------
+
+2) if you run this, nothing will print.
+ pycharm > edit configuratin >click + > Python tests > pytest select > ok
+3) select script file 
+ pycharm > edit configuratin > Python tests >pytest in bin> select Script path>ok>apply>ok
+4) run
