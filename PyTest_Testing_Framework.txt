@@ -17,3 +17,83 @@ def test_firstProgram():
 3) select script file 
  pycharm > edit configuratin > Python tests >pytest in bin> select Script path>ok>apply>ok
 4) run
+
+Run script: below command will run multiple script which scripts are begin wiht "test_"
+-------------
+>py.test -v -s
+
+Run single script:
+-----------------
+>py.test test_demo1.py -v -s
+
+Run script which method name contains specific word with option -k:
+ex: def test_credit_card_program():
+>py.test -k credit_card -v -s
+
+note: -v = more info, -s = logs in output, -k = method name execution.
+
+Group run: with -m group
+------------
+add annotation>
+@pytest.mark.smoke
+def test_firstProgram():
+    print("Hello")
+    
+> >py.test -m smoke -v -s
+
+skip test:
+------------
+@pytest.mark.skip
+def test_firstProgram():
+    print("Hello")
+    
+test want to run but not in the report:
+----------------------------------------
+@pytest.mark.xfail
+
+
+before method like setup and teardown method: fixture are used as setup and teardown methods for test cases-
+---------------------------------------------
+@pytest.fixture()
+def setup():
+    print("i will be executed first")
+    yield
+    print("i will executed last")
+
+
+def test_fixtureDemo(setup):
+    print("i will execute steps in fixtureDemo method")
+    
+
+note: if you want to use across all test scripts file, then create conftest.py and use above script into that file.
+conftest.py available for all test.
+
+
+if we want to run setup before all test case run and yeild(teardown) will run after all testcases then:
+--------------------------------------------------------------------------------------------------------
+conftest.py
+============
+@pytest.fixture(scope="class")
+def setup():
+    print("i will be executed first")
+    yield
+    print("i will executed last")
+    
+    
+testcase class:
+===============
+@pytest.mark.usefixtures("setup")
+class TestExample:
+
+    def test_fixture_demo(self):
+        print("i will execute steps in fixtureDemo method")
+
+    def test_fixture_demo2(self):
+        print("i will execute steps in fixtureDemo2 method")
+
+    def test_fixture_demo3(self):
+        print("i will execute steps in fixtureDemo3 method")
+
+
+
+
