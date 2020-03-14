@@ -1,4 +1,14 @@
 PyTest Testing Framework:
+# Any pytest file should start with test_ or end with _test
+# pytest method names should start with test
+# any code should be wrapped in method only
+# -k = method name execution, -s= logs output, -v= verbose for more info- metadata
+# run script> pytest <filename>
+# tag test> @pytest.mark.smoke and run with -m
+# skip test> pytest.mark.skip
+# @pytest.mark.xfail
+# fixtures are used as setup and tear down methods for test cases - conftest file to generalize.
+# fixture and make it available to all test cases
 
 install pytest > pip install pytest
 version > pytest --version
