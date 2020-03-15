@@ -9,6 +9,10 @@ PyTest Testing Framework:
 # @pytest.mark.xfail
 # fixtures are used as setup and tear down methods for test cases - conftest file to generalize.
 # fixture and make it available to all test cases
+# use fixture for data driven test as well.
+# datadriven and parameterization ca be done with return statements in tuple format
+# when you define fixture scope to the calss only, it will run once before class is initiated at the end
+
 
 install pytest > pip install pytest
 version > pytest --version
@@ -104,6 +108,8 @@ class TestExample:
     def test_fixture_demo3(self):
         print("i will execute steps in fixtureDemo3 method")
 
+Data Driven test:
+==================
 
 
 
