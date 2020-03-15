@@ -17,6 +17,9 @@ PyTest Testing Framework:
 install pytest > pip install pytest
 version > pytest --version
 
+html report> pip install pytest-html
+run> pytest --html=report.html
+
 naming convention:
 1) when you add any python test script, it must start with "test_"
 ex: test_demo1.py
