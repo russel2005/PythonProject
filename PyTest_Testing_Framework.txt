@@ -125,4 +125,13 @@ and add below code into conftest.py
 ----------------------------------
 
 
+paython debuggin:
+=================
+for debugging: 
+import pdb; pdb.set_trace()
+-> next
+-> step
+-> print(variablename) -> find where the issue lies
+-> continue
+
 
