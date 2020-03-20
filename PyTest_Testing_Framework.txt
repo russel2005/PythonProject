@@ -15,6 +15,12 @@ PyTest Testing Framework:
 
 
 install pytest > pip install pytest
+or
+py -m pip install    packagename
+py -m pip --install  packagename
+py -m pip --upgrade  packagename
+py -m pip upgrade    packagename
+
 version > pytest --version
 
 html report> pip install pytest-html
@@ -56,7 +62,7 @@ add annotation>
 def test_firstProgram():
     print("Hello")
     
-> >py.test -m smoke -v -s
+> py.test -m smoke -v -s
 
 skip test:
 ------------
@@ -111,8 +117,12 @@ class TestExample:
     def test_fixture_demo3(self):
         print("i will execute steps in fixtureDemo3 method")
 
-Data Driven test:
-==================
+Run test with specific browser at command line:
+===============================================
+> py.test --browser_name firefox
+
+and add below code into conftest.py
+----------------------------------
 
 
 
