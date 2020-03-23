@@ -16,5 +16,10 @@ square()
 russel_turtle.forward(200)
 square()
 
-
-
+"""
+>>> str = "Messi is the best soccer player"
+>>> "soccer" in str
+True
+>>> "football" in str
+False
+"""
