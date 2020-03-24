@@ -22,4 +22,10 @@ square()
 True
 >>> "football" in str
 False
+
+>>> str = "Messi is the best soccer player"
+>>> str.find("soccer")
+18
+>>> str.find("Ronaldo")
+-1
 """
