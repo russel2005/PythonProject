@@ -74,7 +74,7 @@ class MSSQLManage(object):
             backupFileName = backupFileName
         sql_databases = "SELECT name FROM sys.databases WHERE name NOT IN('master','model','msdb','tempdb')"
         databases = self.query(sql_databases).fetchall()
-        if database_name in str(databases):
+        if databaseName in str(databases):
             #it will replace the backup file, if you want to append the bak file then use option: WITH NOINIT
             sql_backup_stmt = "SET NOCOUNT ON; BACKUP DATABASE {0} TO  DISK = N'C:\\Test\\AUTO_DB_BACKUPS\\{1}.bak' WITH NOFORMAT, INIT, SKIP, NOREWIND, NOUNLOAD;".format(databaseName, backupFileName)
             try:

@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/organize_folder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertex/MSSQL_Manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertex/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertex/replace_csv_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordcount/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/Day10_Class_object_and_inheritance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/Day01_Print_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Day01_Print_basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/Day03_join_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Day03_join_split.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/Day07_Zip_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Day07_Zip_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/Day09_try_except_or_error_handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Day09_try_except_or_error_handling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/templates/count.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/templates/count.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/wordcount/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/wordcount/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertex/MSSQL_Manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/vertex/MSSQL_Manage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vertex/MSSQL_Manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="119" column="25" lean-forward="true" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+            <state relative-caret-position="388">
+              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/Day10_Class_object_and_inheritance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -90,6 +87,7 @@
         <option value="$PROJECT_DIR$/practice/Day01_Print_basic.py" />
         <option value="$PROJECT_DIR$/practice/organize_folder.py" />
         <option value="$PROJECT_DIR$/vertex/MSSQL_Manage.py" />
+        <option value="$PROJECT_DIR$/practice/Day10_Class_object_and_inheritance.py" />
       </list>
     </option>
   </component>
@@ -165,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day01_Print_basic">
+  <component name="RunManager" selected="Python.Day10_Class_object_and_inheritance">
     <configuration name="Day01_Print_basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day07_Generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day10_Class_object_and_inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +199,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/Day07_Generators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/Day10_Class_object_and_inheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,19 +275,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Day07_Generators" />
       <item itemvalue="Python.list_of_email_split_and_extract_name" />
       <item itemvalue="Python.test_calc" />
       <item itemvalue="Python.test_employee" />
       <item itemvalue="Python.Day01_Print_basic" />
+      <item itemvalue="Python.Day10_Class_object_and_inheritance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day10_Class_object_and_inheritance" />
         <item itemvalue="Python.Day01_Print_basic" />
         <item itemvalue="Python.list_of_email_split_and_extract_name" />
         <item itemvalue="Python.test_employee" />
         <item itemvalue="Python.test_calc" />
-        <item itemvalue="Python.Day07_Generators" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +308,7 @@
       <workItem from="1582470230623" duration="2719000" />
       <workItem from="1584908269353" duration="41898000" />
       <workItem from="1585941752914" duration="31499000" />
-      <workItem from="1586443985132" duration="10342000" />
+      <workItem from="1586443985132" duration="11411000" />
     </task>
     <task id="LOCAL-00001" summary="modified Day05 files">
       <created>1580784999292</created>
@@ -354,21 +352,29 @@
       <option name="project" value="LOCAL" />
       <updated>1582470994881</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="big commit">
+      <created>1586935006612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586935006612</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113959000" />
+    <option name="totallyTimeSpent" value="115028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49765572" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49765572" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,7 +425,8 @@
     <MESSAGE value="add tic tac toe" />
     <MESSAGE value="add generators.py" />
     <MESSAGE value="add list_of_email_split_and_extract_name.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add list_of_email_split_and_extract_name.py" />
+    <MESSAGE value="big commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="big commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -439,6 +446,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Generators.coverage" NAME="Day07_Generators Coverage Results" MODIFIED="1581050662180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Zip_functions.coverage" NAME="Day07_Zip_functions Coverage Results" MODIFIED="1581041766735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1581130029317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
+    <SUITE FILE_PATH="coverage/PythonProject$Day10_Class_object_and_inheritance.coverage" NAME="Day10_Class_object_and_inheritance Coverage Results" MODIFIED="1586935610454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$list_of_email_split_and_extract_name.coverage" NAME="list_of_email_split_and_extract_name Coverage Results" MODIFIED="1586273022088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vertex" />
     <SUITE FILE_PATH="coverage/PythonProject$test_employee.coverage" NAME="test_employee Coverage Results" MODIFIED="1582470618938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/PythonProject$Day01_Print_basic.coverage" NAME="Day01_Print_basic Coverage Results" MODIFIED="1586934911669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
@@ -628,11 +636,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vertex/MSSQL_Manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="119" column="25" lean-forward="true" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+        <state relative-caret-position="388">
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Day10_Class_object_and_inheritance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
         </state>
       </provider>
     </entry>
