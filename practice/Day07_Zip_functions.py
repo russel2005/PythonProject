@@ -6,7 +6,7 @@ zipped = list(zip(names, heroes))
 
 print(zipped)
 
-unzipped = list( zip(*zipped))
+unzipped = list(zip(*zipped))
 
 print(unzipped)
 

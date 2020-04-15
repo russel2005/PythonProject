@@ -6,6 +6,7 @@
 </head>
 <body>
     <h1> There sare {{ count }} words in your text </h1>
+    <a href={% url 'home' %}>Start again</a>
     <h2> Your text: </h2>
     {{ fulltext }}
 
@@ -14,5 +15,6 @@
     {{ word }} - {{ counttotal }}
         <br />
     {% endfor %}
+
 </body>
 </html>

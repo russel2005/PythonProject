@@ -29,7 +29,7 @@ except FileNotFoundError as e:
 except Exception as e:
 	print(e)
 else:
-	print('else block only run when we don't have an exception')
+	print("else block only run when we don't have an exception")
 	print(f.read())
 	f.close()
 finally:
@@ -46,7 +46,7 @@ except FileNotFoundError as e:
 except Exception as e:
 	print(e)
 else:
-	print('else block only run when we don't have an exception')
+	print("else block only run when we don't have an exception")
 	print(f.read())
 	f.close()
 finally:
