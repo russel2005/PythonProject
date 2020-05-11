@@ -63,7 +63,7 @@ class MSSQLManage(object):
 
     def backup_database(self, databaseName, backupFileName):
         """ please enter first param the databaseName = MSSQL existing Database Name, which you need to create backup file.
-            and enter 2nd param the backupFileName as backup file name will be created at location 'C:\\test\\AUTO_DB_BACKUPS\\*.bak',
+            and 2nd param 'backupFileName' as a backup file name which will be created at folder location in location 'C:\\test\\AUTO_DB_BACKUPS\\*.bak',
         :databaseName: 'str'
         :backupFileName: 'str'
         :author: VertexUserTouhidul"""
@@ -76,7 +76,7 @@ class MSSQLManage(object):
         databases = self.query(sql_databases).fetchall()
         if databaseName in str(databases):
             #it will replace the backup file, if you want to append the bak file then use option: WITH NOINIT
-            sql_backup_stmt = "SET NOCOUNT ON; BACKUP DATABASE {0} TO  DISK = N'C:\\Test\\AUTO_DB_BACKUPS\\{1}.bak' WITH NOFORMAT, INIT, SKIP, NOREWIND, NOUNLOAD;".format(databaseName, backupFileName)
+            sql_backup_stmt = "SET NOCOUNT ON; BACKUP DATABASE {0} TO  DISK = N'C:/Test/AUTO_DB_BACKUPS/{1}.bak' WITH NOFORMAT, INIT, SKIP, NOREWIND, NOUNLOAD;".format(databaseName, backupFileName)
             try:
                 self.query(sql_backup_stmt)
             #except pyodbc.ProgrammingError as e:
@@ -105,9 +105,9 @@ class MSSQLManage(object):
             print("Exception:" + str(e))
 
     def delete_database(self, databaseName):
-        """ Delete Database if exists.
-        :type database_name: 'str'"""
-        sql_drop_db = "DROP DATABASE IF EXISTS {}".format(databaseName)
+        """ Delete Database if exists. user able to delete database with this component and passing database name as a parameter.
+        :param: databaseName: 'str'"""
+        #sql_drop_db = "DROP DATABASE IF EXISTS {}".format(databaseName)
         sql_drop_database = """IF EXISTS (SELECT name from sys.databases WHERE (name = '{0}'))
                                 BEGIN
                                     ALTER DATABASE {0} SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
@@ -115,7 +115,7 @@ class MSSQLManage(object):
                                 END;""".format(databaseName)
         #print("drop database stmt: " +sql_drop_database)
         try:
-            self.query(sql_drop_db)
+            #self.query(sql_drop_db)
             self.query(sql_drop_database)
             time.sleep(5)
         except Exception as e:
@@ -163,11 +163,11 @@ class MSSQLManage(object):
 db = MSSQLManage()
 db.find_driver()
 db.find_hostname()
-db.backup_database("VertexUserTouhidul")
+#db.backup_database("VertexUserTouhidulCopy","Test")
 #=================================
-db.restore_database("VertexUserTouhidul","test.bak")
+db.restore_database("VertexUserTouhidul", "test.bak")
 #db.find_company()
-#db.delete_database("VertexUserTouhidul")
+#db.delete_database("VertexUserTouhidulCopy")
 #=================================
 #db.show_tables()
 #db.db_connect()
