@@ -46,7 +46,7 @@ Run script: below command will run multiple script which scripts are begin wiht 
 >py.test -v -s
 
 Run single script:
------------------
+------------------
 >py.test test_demo1.py -v -s
 
 Run script which method name contains specific word with option -k:
@@ -54,6 +54,10 @@ ex: def test_credit_card_program():
 >py.test -k credit_card -v -s
 
 note: -v = more info, -s = logs in output, -k = method name execution.
+
+Run single test:
+----------------
+> pytest -v test_add.py -k partial_Method_name
 
 Group run: with -m group
 ------------
