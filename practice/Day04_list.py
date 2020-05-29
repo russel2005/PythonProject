@@ -26,3 +26,21 @@ print(best_ratings)
 #or
 print([movie for movie in movies_ratings if movies_ratings[movie] > 6])
 ###############################
+
+
+# find max value
+
+items = [6, 20, 8, 19, 23, 87, 41, 49, 53]
+
+def find_max(items):
+    if len(items) == 1:
+        return items[0]
+    op1 = items[0]
+    op2 = find_max(items[1:])
+
+    if op1 > op2:
+        return op1
+    else:
+        return op2
+
+print(find_max(items))

@@ -27,5 +27,27 @@ contacts ={
     'arish': ['212-345-3333', 'arish@gmail.com']
 }
 
+def save_user(**user):
+    print(user)
+    print(user["id"])
+    print(user["name"])
 
+
+save_user(id=1, name="admin") # this is dictionary
+
+
+#count value in hashtable/dictionary  how many times occured
+items = ["apple", "pear", "orange", "banana", "apple",
+"apple", "orange", "banana", "apple", "pear", "orange",
+"banana", "apple", "pear", "banana", "grape", "orange"]
+
+count = dict()
+
+for item in items:
+    if item in count.keys():
+        count[item] += 1
+    else:
+        count[item] = 1
+
+print(count)
 
