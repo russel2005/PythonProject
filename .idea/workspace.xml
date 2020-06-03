@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/codechallenges/CountUniqueWords06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/codechallenges/GeneratePassword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/codechallenges/MergeCSVfile07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/codechallenges/SendEmail05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/codechallenges/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +96,14 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -397,7 +399,7 @@
       <workItem from="1589216148603" duration="4052000" />
       <workItem from="1589550777041" duration="598000" />
       <workItem from="1589922104369" duration="1212000" />
-      <workItem from="1590777496812" duration="12006000" />
+      <workItem from="1590777496812" duration="13136000" />
     </task>
     <task id="LOCAL-00001" summary="modified Day05 files">
       <created>1580784999292</created>
@@ -490,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591125857063</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="code challenges added">
+      <created>1591187852146</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591187852146</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -499,7 +508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136739000" />
+    <option name="totallyTimeSpent" value="137869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1015" extended-state="6" />
@@ -910,7 +919,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
