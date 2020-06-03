@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/codechallenges/SortString03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/codechallenges/WaitingGame04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codechallenges/CountUniqueWords06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codechallenges/GeneratePassword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codechallenges/MergeCSVfile07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codechallenges/SendEmail05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/codechallenges/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/codechallenges/FindPrimeFactors.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codechallenges/FindPrimeFactors01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/codechallenges/SortString.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/codechallenges/StringIsPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codechallenges/StringIsPalindrome02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/Day04_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice/codechallenges/FindPrimeFactors01.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,42 +60,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/Day03_set.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/Day03_join_split.py">
+        <entry file="file://$PROJECT_DIR$/practice/codechallenges/SendEmail05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/Day03_dictionary.py">
+        <entry file="file://$PROJECT_DIR$/practice/codechallenges/CountUniqueWords06.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vertex/MSSQL_Manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            <state relative-caret-position="112">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#225#234#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/codechallenges/GeneratePassword.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/codechallenges/MergeCSVfile07.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/codechallenges/file.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="198" selection-start-line="28" selection-start-column="198" selection-end-line="28" selection-end-column="198" />
             </state>
           </provider>
         </entry>
@@ -158,6 +163,12 @@
         <option value="$PROJECT_DIR$/practice/codechallenges/SortString.py" />
         <option value="$PROJECT_DIR$/practice/codechallenges/WaitingGame04.py" />
         <option value="$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py" />
+        <option value="$PROJECT_DIR$/practice/codechallenges/SendEmail05.py" />
+        <option value="$PROJECT_DIR$/practice/codechallenges/file.txt" />
+        <option value="$PROJECT_DIR$/practice/codechallenges/CountUniqueWords.py" />
+        <option value="$PROJECT_DIR$/practice/codechallenges/GeneratePassword.py" />
+        <option value="$PROJECT_DIR$/practice/codechallenges/MergeCSVfile.py" />
+        <option value="$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py" />
       </list>
     </option>
   </component>
@@ -239,30 +250,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.WaitingGame04">
-    <configuration name="Day04_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/Day04_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FindPrimeFactors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MergeCSVfile">
+    <configuration name="CountUniqueWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,7 +264,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\russe\PycharmProjects\PythonProject\practice\codechallenges\FindPrimeFactors01.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\russe\PycharmProjects\PythonProject\practice\codechallenges\CountUniqueWords06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,7 +273,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SortString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MergeCSVfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,7 +286,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\russe\PycharmProjects\PythonProject\practice\codechallenges\SortString03.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\russe\PycharmProjects\PythonProject\practice\codechallenges\MergeCSVfile07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StringIsPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SendEmail05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,7 +308,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\russe\PycharmProjects\PythonProject\practice\codechallenges\StringIsPalindrome02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/codechallenges/SendEmail05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,20 +339,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in SetAnAlarm" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice/codechallenges" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Day04_list" />
-      <item itemvalue="Python.FindPrimeFactors" />
-      <item itemvalue="Python.StringIsPalindrome" />
-      <item itemvalue="Python.SortString" />
       <item itemvalue="Python.WaitingGame04" />
+      <item itemvalue="Python tests.Doctests in SetAnAlarm" />
+      <item itemvalue="Python.SendEmail05" />
+      <item itemvalue="Python.CountUniqueWords" />
+      <item itemvalue="Python.MergeCSVfile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MergeCSVfile" />
+        <item itemvalue="Python.CountUniqueWords" />
+        <item itemvalue="Python.SendEmail05" />
+        <item itemvalue="Python tests.Doctests in SetAnAlarm" />
         <item itemvalue="Python.WaitingGame04" />
-        <item itemvalue="Python.SortString" />
-        <item itemvalue="Python.StringIsPalindrome" />
-        <item itemvalue="Python.FindPrimeFactors" />
-        <item itemvalue="Python.Day04_list" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +397,7 @@
       <workItem from="1589216148603" duration="4052000" />
       <workItem from="1589550777041" duration="598000" />
       <workItem from="1589922104369" duration="1212000" />
-      <workItem from="1590777496812" duration="4420000" />
+      <workItem from="1590777496812" duration="12006000" />
     </task>
     <task id="LOCAL-00001" summary="modified Day05 files">
       <created>1580784999292</created>
@@ -475,11 +483,23 @@
       <option name="project" value="LOCAL" />
       <updated>1591122544922</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="code challenges added">
+      <created>1591125857063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591125857063</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_SetAnAlarm - 2020.06.02 at 15h 33m 54s.xml">
+      <configuration name="Doctests in SetAnAlarm" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129153000" />
+    <option name="totallyTimeSpent" value="136739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1015" extended-state="6" />
@@ -490,7 +510,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49765572" visible="true" weight="0.19501133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49765572" visible="true" weight="0.5952381" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -559,10 +579,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject$SendEmail05.coverage" NAME="SendEmail05 Coverage Results" MODIFIED="1591127252762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$FindPrimeFactors.coverage" NAME="FindPrimeFactors Coverage Results" MODIFIED="1591121770812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Tic_Tac_Toe.coverage" NAME="Day07_Tic_Tac_Toe Coverage Results" MODIFIED="1581047488492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day05_datetime.coverage" NAME="Day05_datetime Coverage Results" MODIFIED="1580954747157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Generators.coverage" NAME="Day07_Generators Coverage Results" MODIFIED="1581050662180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/PythonProject$MergeCSVfile.coverage" NAME="MergeCSVfile Coverage Results" MODIFIED="1591145147236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
+    <SUITE FILE_PATH="coverage/PythonProject$CountUniqueWords.coverage" NAME="CountUniqueWords Coverage Results" MODIFIED="1591131270034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$SortString.coverage" NAME="SortString Coverage Results" MODIFIED="1591123011134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$test_employee.coverage" NAME="test_employee Coverage Results" MODIFIED="1582470618938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/PythonProject$Day01_Print_basic.coverage" NAME="Day01_Print_basic Coverage Results" MODIFIED="1586934911669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
@@ -572,6 +595,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Zip_functions.coverage" NAME="Day07_Zip_functions Coverage Results" MODIFIED="1581041766735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1581130029317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/PythonProject$Day10_Class_object_and_inheritance.coverage" NAME="Day10_Class_object_and_inheritance Coverage Results" MODIFIED="1590778226812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/PythonProject$Doctests_in_SetAnAlarm.coverage" NAME="Doctests in SetAnAlarm Coverage Results" MODIFIED="1591126425659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$list_of_email_split_and_extract_name.coverage" NAME="list_of_email_split_and_extract_name Coverage Results" MODIFIED="1586273022088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vertex" />
     <SUITE FILE_PATH="coverage/PythonProject$StringIsPalindrome.coverage" NAME="StringIsPalindrome Coverage Results" MODIFIED="1591122421495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
   </component>
@@ -827,6 +851,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#176#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice/codechallenges/WaitingGame04.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -837,7 +871,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/codechallenges/SetAnAlarm.py">
+    <entry file="file://$PROJECT_DIR$/practice/codechallenges/SendEmail05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/codechallenges/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="198" selection-start-line="28" selection-start-column="198" selection-end-line="28" selection-end-column="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/codechallenges/CountUniqueWords06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#225#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/codechallenges/GeneratePassword.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/codechallenges/MergeCSVfile07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
