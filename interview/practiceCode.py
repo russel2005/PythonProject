@@ -70,12 +70,12 @@ for num in newNums:
 print(uniques)
 
 ##############Dictionary##############
->>> for key, value in a_dict.items():
-...     print(key, '->', value)
-...
-color -> blue
-fruit -> apple
-pet -> dog
+# >>> for key, value in a_dict.items():
+# ...     print(key, '->', value)
+# ...
+# color -> blue
+# fruit -> apple
+# pet -> dog
 #########################inheritance##############
 class Dog:
   def walk(self):

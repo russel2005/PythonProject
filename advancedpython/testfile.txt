@@ -1,0 +1,6 @@
+this is line 1
+this is line 2
+ print(next(i))
+  print(next(i))
+   print(next(i))
+    print(next(i))
