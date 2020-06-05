@@ -1,4 +1,6 @@
-
+"""
+https://docs.python.org/3/library/itertools.html
+"""
 
 def main():
     days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']

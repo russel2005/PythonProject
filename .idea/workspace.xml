@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advancedpython/Iterators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advancedpython/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/practiceCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview/practiceCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advancedpython/Iterators.py" beforeDir="false" afterPath="$PROJECT_DIR$/advancedpython/Iterators.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/advancedpython/Iterators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="17">
+              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advancedpython/transforms_start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -85,6 +92,8 @@
         <option value="$PROJECT_DIR$/practice/codechallenges/BuildZipArchive.py" />
         <option value="$PROJECT_DIR$/interview/practiceCode.py" />
         <option value="$PROJECT_DIR$/advancedpython/testfile.txt" />
+        <option value="$PROJECT_DIR$/advancedpython/transforms_start..py" />
+        <option value="$PROJECT_DIR$/advancedpython/transforms_start.py" />
         <option value="$PROJECT_DIR$/advancedpython/Iterators.py" />
       </list>
     </option>
@@ -151,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Iterators">
+  <component name="RunManager" selected="Python.transforms_start">
     <configuration name="CountUniqueWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,28 +227,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SendEmail05" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice/codechallenges" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/codechallenges/SendEmail05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="practiceCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,20 +249,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="transforms_start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advancedpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advancedpython/transforms_start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.SendEmail05" />
       <item itemvalue="Python.CountUniqueWords" />
       <item itemvalue="Python.MergeCSVfile" />
       <item itemvalue="Python.practiceCode" />
       <item itemvalue="Python.Iterators" />
+      <item itemvalue="Python.transforms_start" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.transforms_start" />
         <item itemvalue="Python.Iterators" />
         <item itemvalue="Python.practiceCode" />
         <item itemvalue="Python.MergeCSVfile" />
         <item itemvalue="Python.CountUniqueWords" />
-        <item itemvalue="Python.SendEmail05" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +310,7 @@
       <workItem from="1589216148603" duration="4052000" />
       <workItem from="1589550777041" duration="598000" />
       <workItem from="1589922104369" duration="1212000" />
-      <workItem from="1590777496812" duration="17300000" />
+      <workItem from="1590777496812" duration="19112000" />
     </task>
     <task id="LOCAL-00001" summary="modified Day05 files">
       <created>1580784999292</created>
@@ -408,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591189174265</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="code challenges added">
+      <created>1591365329384</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591365329385</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -417,13 +433,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142033000" />
+    <option name="totallyTimeSpent" value="143845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09754797" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09754797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,12 +462,12 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19034608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09754797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49765572" visible="true" weight="0.9232737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49765572" visible="true" weight="0.4909297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,6 +526,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$WaitingGame04.coverage" NAME="WaitingGame04 Coverage Results" MODIFIED="1591123896538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$practiceCode.coverage" NAME="practiceCode Coverage Results" MODIFIED="1591329858054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview" />
     <SUITE FILE_PATH="coverage/PythonProject$Iterators.coverage" NAME="Iterators Coverage Results" MODIFIED="1591365164522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
+    <SUITE FILE_PATH="coverage/PythonProject$transforms_start.coverage" NAME="transforms_start Coverage Results" MODIFIED="1591366872409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
     <SUITE FILE_PATH="coverage/PythonProject$Day06_webscraping.coverage" NAME="Day06_webscraping Coverage Results" MODIFIED="1581038883546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day04_list.coverage" NAME="Day04_list Coverage Results" MODIFIED="1590778232997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Zip_functions.coverage" NAME="Day07_Zip_functions Coverage Results" MODIFIED="1581041766735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
@@ -520,7 +537,6 @@
     <SUITE FILE_PATH="coverage/PythonProject$StringIsPalindrome.coverage" NAME="StringIsPalindrome Coverage Results" MODIFIED="1591122421495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-scraping/web_scraping.py" />
     <entry file="file://$PROJECT_DIR$/practice/Day06_webscraping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -834,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/practiceCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/advancedpython/testfile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -848,10 +857,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/interview/practiceCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advancedpython/transforms_start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/advancedpython/Iterators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="17">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
         </state>
       </provider>
     </entry>
