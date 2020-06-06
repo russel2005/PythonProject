@@ -4,9 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/../PyTest_selenium_framework/tests/test_e2e.py" description="#@pytest.mark.usefixtures(&quot;setup&quot;)&#10;class TestEnd2E..." line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="code challenges added">
-      <change afterPath="$PROJECT_DIR$/advancedpython/itertools_start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advancedpython/varargs.py" afterDir="false" />
+    <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/advancedpython/lambda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advancedpython/varargs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advancedpython/lambda.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -116,13 +124,14 @@
         <option value="$PROJECT_DIR$/advancedpython/transforms_start.py" />
         <option value="$PROJECT_DIR$/advancedpython/itertools_start.py" />
         <option value="$PROJECT_DIR$/advancedpython/varargs.py" />
+        <option value="$PROJECT_DIR$/advancedpython/lambda.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1970" />
-    <option name="y" value="57" />
-    <option name="width" value="1728" />
+    <option name="x" value="505" />
+    <option name="y" value="740" />
+    <option name="width" value="2458" />
     <option name="height" value="1335" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -147,6 +156,11 @@
               <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.varargs">
+  <component name="RunManager" selected="Python.lambda">
     <configuration name="Iterators" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practiceCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,12 +248,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advancedpython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview/practiceCode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advancedpython/lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,19 +307,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.practiceCode" />
       <item itemvalue="Python.Iterators" />
       <item itemvalue="Python.transforms_start" />
       <item itemvalue="Python.itertools_start" />
       <item itemvalue="Python.varargs" />
+      <item itemvalue="Python.lambda" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lambda" />
         <item itemvalue="Python.varargs" />
         <item itemvalue="Python.itertools_start" />
         <item itemvalue="Python.transforms_start" />
         <item itemvalue="Python.Iterators" />
-        <item itemvalue="Python.practiceCode" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +345,7 @@
       <workItem from="1589216148603" duration="4052000" />
       <workItem from="1589550777041" duration="598000" />
       <workItem from="1589922104369" duration="1212000" />
-      <workItem from="1590777496812" duration="23027000" />
+      <workItem from="1590777496812" duration="25139000" />
     </task>
     <task id="LOCAL-00001" summary="modified Day05 files">
       <created>1580784999292</created>
@@ -452,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591366983465</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="code challenges added">
+      <created>1591376336743</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591376336743</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -461,12 +482,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147760000" />
+    <option name="totallyTimeSpent" value="149872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="788" y="23" width="691" height="534" extended-state="0" />
+    <frame x="202" y="296" width="983" height="534" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4503937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49622437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -541,32 +562,32 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$SendEmail05.coverage" NAME="SendEmail05 Coverage Results" MODIFIED="1591127252762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
-    <SUITE FILE_PATH="coverage/PythonProject$FindPrimeFactors.coverage" NAME="FindPrimeFactors Coverage Results" MODIFIED="1591121770812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
-    <SUITE FILE_PATH="coverage/PythonProject$Day07_Tic_Tac_Toe.coverage" NAME="Day07_Tic_Tac_Toe Coverage Results" MODIFIED="1581047488492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day05_datetime.coverage" NAME="Day05_datetime Coverage Results" MODIFIED="1580954747157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
-    <SUITE FILE_PATH="coverage/PythonProject$Day07_Generators.coverage" NAME="Day07_Generators Coverage Results" MODIFIED="1581050662180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$MergeCSVfile.coverage" NAME="MergeCSVfile Coverage Results" MODIFIED="1591329683748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$CountUniqueWords.coverage" NAME="CountUniqueWords Coverage Results" MODIFIED="1591131270034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$SortString.coverage" NAME="SortString Coverage Results" MODIFIED="1591123011134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$test_employee.coverage" NAME="test_employee Coverage Results" MODIFIED="1582470618938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/PythonProject$Day01_Print_basic.coverage" NAME="Day01_Print_basic Coverage Results" MODIFIED="1586934911669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
-    <SUITE FILE_PATH="coverage/PythonProject$WaitingGame04.coverage" NAME="WaitingGame04 Coverage Results" MODIFIED="1591123896538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$itertools_start.coverage" NAME="itertools_start Coverage Results" MODIFIED="1591376152476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
-    <SUITE FILE_PATH="coverage/PythonProject$practiceCode.coverage" NAME="practiceCode Coverage Results" MODIFIED="1591329858054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview" />
     <SUITE FILE_PATH="coverage/PythonProject$Iterators.coverage" NAME="Iterators Coverage Results" MODIFIED="1591365164522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
-    <SUITE FILE_PATH="coverage/PythonProject$transforms_start.coverage" NAME="transforms_start Coverage Results" MODIFIED="1591370884207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
-    <SUITE FILE_PATH="coverage/PythonProject$Day06_webscraping.coverage" NAME="Day06_webscraping Coverage Results" MODIFIED="1581038883546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day04_list.coverage" NAME="Day04_list Coverage Results" MODIFIED="1590778232997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
-    <SUITE FILE_PATH="coverage/PythonProject$Day07_Zip_functions.coverage" NAME="Day07_Zip_functions Coverage Results" MODIFIED="1581041766735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
-    <SUITE FILE_PATH="coverage/PythonProject$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1581130029317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/PythonProject$Day10_Class_object_and_inheritance.coverage" NAME="Day10_Class_object_and_inheritance Coverage Results" MODIFIED="1590778226812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Doctests_in_SetAnAlarm.coverage" NAME="Doctests in SetAnAlarm Coverage Results" MODIFIED="1591126425659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
-    <SUITE FILE_PATH="coverage/PythonProject$varargs.coverage" NAME="varargs Coverage Results" MODIFIED="1591376324342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
+    <SUITE FILE_PATH="coverage/PythonProject$varargs.coverage" NAME="varargs Coverage Results" MODIFIED="1591376901485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
+    <SUITE FILE_PATH="coverage/PythonProject$FindPrimeFactors.coverage" NAME="FindPrimeFactors Coverage Results" MODIFIED="1591121770812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
+    <SUITE FILE_PATH="coverage/PythonProject$Day07_Tic_Tac_Toe.coverage" NAME="Day07_Tic_Tac_Toe Coverage Results" MODIFIED="1581047488492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/PythonProject$Day07_Generators.coverage" NAME="Day07_Generators Coverage Results" MODIFIED="1581050662180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/PythonProject$WaitingGame04.coverage" NAME="WaitingGame04 Coverage Results" MODIFIED="1591123896538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
+    <SUITE FILE_PATH="coverage/PythonProject$practiceCode.coverage" NAME="practiceCode Coverage Results" MODIFIED="1591329858054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview" />
+    <SUITE FILE_PATH="coverage/PythonProject$transforms_start.coverage" NAME="transforms_start Coverage Results" MODIFIED="1591370884207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
+    <SUITE FILE_PATH="coverage/PythonProject$Day06_webscraping.coverage" NAME="Day06_webscraping Coverage Results" MODIFIED="1581038883546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/PythonProject$Day07_Zip_functions.coverage" NAME="Day07_Zip_functions Coverage Results" MODIFIED="1581041766735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/PythonProject$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1581130029317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/PythonProject$list_of_email_split_and_extract_name.coverage" NAME="list_of_email_split_and_extract_name Coverage Results" MODIFIED="1586273022088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vertex" />
     <SUITE FILE_PATH="coverage/PythonProject$StringIsPalindrome.coverage" NAME="StringIsPalindrome Coverage Results" MODIFIED="1591122421495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
+    <SUITE FILE_PATH="coverage/PythonProject$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1591377189630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unittest2/calc.py" />
     <entry file="file://$PROJECT_DIR$/unittest2/test_calc.py" />
     <entry file="file://$PROJECT_DIR$/practice/Day07_Tic_Tac_Toe.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -609,9 +630,6 @@
           <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/ex_words.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/list_of_email_split_and_extract_name.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -907,6 +925,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/ex_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advancedpython/lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
