@@ -4,10 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/../PyTest_selenium_framework/tests/test_e2e.py" description="#@pytest.mark.usefixtures(&quot;setup&quot;)&#10;class TestEnd2E..." line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="">
+    <list default="true" id="9a53b694-19ca-4b90-b3a9-42ca005a481a" name="Default Changelist" comment="added counter.py">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/russe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advancedpython/advanced_classes/advancedclasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advancedpython/orderDict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advancedpython/counter08.py" beforeDir="false" afterPath="$PROJECT_DIR$/advancedpython/counter08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advancedpython/findWordMaxNumber.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,16 +67,34 @@
         <entry file="file://$PROJECT_DIR$/advancedpython/defaultdict07.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="30" selection-end-line="31" selection-end-column="10" />
+              <caret line="31" column="10" selection-start-line="30" selection-end-line="31" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advancedpython/counter08.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advancedpython/orderDict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advancedpython/counter08.py">
+        <entry file="file://$PROJECT_DIR$/advancedpython/advanced_classes/advancedclasses">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -151,14 +170,16 @@
         <option value="$PROJECT_DIR$/advancedpython/lambda.py" />
         <option value="$PROJECT_DIR$/advancedpython/defaultdict.py" />
         <option value="$PROJECT_DIR$/advancedpython/counter08.py" />
+        <option value="$PROJECT_DIR$/advancedpython/orderDict.py" />
+        <option value="$PROJECT_DIR$/advancedpython/advanced_classes/advancedclasses" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="822" />
-    <option name="y" value="277" />
-    <option name="width" value="1943" />
-    <option name="height" value="1335" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3832" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,6 +198,12 @@
               <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
               <item name="advancedpython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="advancedpython" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced_classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
@@ -222,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.counter08">
+  <component name="RunManager" selected="Python.orderDict">
     <configuration name="counter08" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,28 +294,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="itertools_start" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advancedpython" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\russe\PycharmProjects\PythonProject\advancedpython\itertools_start04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,6 +308,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\russe\PycharmProjects\PythonProject\advancedpython\lambda05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="orderDict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advancedpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advancedpython/orderDict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,19 +361,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.itertools_start" />
       <item itemvalue="Python.varargs" />
       <item itemvalue="Python.lambda" />
       <item itemvalue="Python.defaultdict" />
       <item itemvalue="Python.counter08" />
+      <item itemvalue="Python.orderDict" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.orderDict" />
         <item itemvalue="Python.counter08" />
         <item itemvalue="Python.defaultdict" />
         <item itemvalue="Python.lambda" />
         <item itemvalue="Python.varargs" />
-        <item itemvalue="Python.itertools_start" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +399,7 @@
       <workItem from="1589216148603" duration="4052000" />
       <workItem from="1589550777041" duration="598000" />
       <workItem from="1589922104369" duration="1212000" />
-      <workItem from="1590777496812" duration="29224000" />
+      <workItem from="1590777496812" duration="30708000" />
     </task>
     <task id="LOCAL-00001" summary="modified Day05 files">
       <created>1580784999292</created>
@@ -528,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591418073715</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added counter.py">
+      <created>1591419209560</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591419209560</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -537,18 +571,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153957000" />
+    <option name="totallyTimeSpent" value="155441000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-90" y="108" width="777" height="534" extended-state="0" />
+    <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25936198" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09968017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49765572" weight="0.9259259" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49765572" visible="true" weight="0.40628386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,7 +641,8 @@
     <MESSAGE value="added transforms_start.py" />
     <MESSAGE value="added findWordMaxNumber.py" />
     <MESSAGE value="added defaultdic.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added defaultdic.py" />
+    <MESSAGE value="added counter.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added counter.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,12 +665,13 @@
     <SUITE FILE_PATH="coverage/PythonProject$test_employee.coverage" NAME="test_employee Coverage Results" MODIFIED="1582470618938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest" />
     <SUITE FILE_PATH="coverage/PythonProject$Day01_Print_basic.coverage" NAME="Day01_Print_basic Coverage Results" MODIFIED="1586934911669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$itertools_start.coverage" NAME="itertools_start Coverage Results" MODIFIED="1591376152476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
+    <SUITE FILE_PATH="coverage/PythonProject$orderDict.coverage" NAME="orderDict Coverage Results" MODIFIED="1591420223764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
     <SUITE FILE_PATH="coverage/PythonProject$Iterators.coverage" NAME="Iterators Coverage Results" MODIFIED="1591365164522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
     <SUITE FILE_PATH="coverage/PythonProject$Day04_list.coverage" NAME="Day04_list Coverage Results" MODIFIED="1590778232997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day10_Class_object_and_inheritance.coverage" NAME="Day10_Class_object_and_inheritance Coverage Results" MODIFIED="1590778226812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Doctests_in_SetAnAlarm.coverage" NAME="Doctests in SetAnAlarm Coverage Results" MODIFIED="1591126425659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$varargs.coverage" NAME="varargs Coverage Results" MODIFIED="1591376901485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
-    <SUITE FILE_PATH="coverage/PythonProject$counter08.coverage" NAME="counter08 Coverage Results" MODIFIED="1591419146331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
+    <SUITE FILE_PATH="coverage/PythonProject$counter08.coverage" NAME="counter08 Coverage Results" MODIFIED="1591419774881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
     <SUITE FILE_PATH="coverage/PythonProject$FindPrimeFactors.coverage" NAME="FindPrimeFactors Coverage Results" MODIFIED="1591121770812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice/codechallenges" />
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Tic_Tac_Toe.coverage" NAME="Day07_Tic_Tac_Toe Coverage Results" MODIFIED="1581047488492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/PythonProject$Day07_Generators.coverage" NAME="Day07_Generators Coverage Results" MODIFIED="1581050662180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
@@ -650,20 +686,6 @@
     <SUITE FILE_PATH="coverage/PythonProject$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1591377189630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advancedpython" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unittest/calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/employee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unittest/test_employee2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -993,14 +1015,28 @@
     <entry file="file://$PROJECT_DIR$/advancedpython/defaultdict07.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="30" selection-end-line="31" selection-end-column="10" />
+          <caret line="31" column="10" selection-start-line="30" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advancedpython/counter08.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="241">
+          <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advancedpython/orderDict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advancedpython/advanced_classes/advancedclasses">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>

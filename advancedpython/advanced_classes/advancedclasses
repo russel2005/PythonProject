@@ -1,0 +1,5 @@
+1) create enumerations
+2) customize string and byte representations of objects
+3) define computed and default attributes
+4) control how objects are logically compared to each other
+5) Give objects numeric like behavior (addtion, subtraction, etc)
