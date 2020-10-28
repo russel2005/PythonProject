@@ -59,6 +59,13 @@ for i in range(len(digits)-(range_size-1)):
 
 
 
+"""
+String formatting
+"""
+city= "philly"
+event = "show"
+print("Welcome to " + city + " and enjoy the " + event)
+print("Welcome to %s and enjoy the %s" %(city, event)) # same output as above line
 
 
 
