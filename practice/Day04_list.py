@@ -10,6 +10,16 @@ print([person for person in names])
 ######################################
 names.insert(1, "raheel")
 print(names)
+
+x = names.index("momo")
+print(x) # 2
+
+y = names.pop()
+print(y)
+print(names) # removes last item from list
+
+names.remove("raheel")
+print(names)
 ######################################
 x = []
 for person in names:
