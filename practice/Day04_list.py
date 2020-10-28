@@ -1,6 +1,6 @@
 names = ['arish','momo','russel','nazrul']
 
-l =[]
+l =[] # l is empty list
 for person in names:
     l.append(person)
 print(l)
