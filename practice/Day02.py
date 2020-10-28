@@ -39,8 +39,9 @@ for item in lll:
 
 #indexing slicing striding
 digits = [1,2,3,4,5,6,7,8,9,0]
-print(digits[0])
-print(digits[-1])
+print(digits[0]) # 1
+print(digits[-1]) # 0
+print(digits[-2]) # 9
 
 print(digits[:3])#begin to 3-1
 print(digits[5:])#from 5 to end
