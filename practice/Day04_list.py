@@ -20,6 +20,8 @@ print(names) # removes last item from list
 
 names.remove("raheel")
 print(names)
+
+print(names.sort()) # sorting alphabatically
 ######################################
 x = []
 for person in names:
