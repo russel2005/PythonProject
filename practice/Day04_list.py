@@ -7,8 +7,10 @@ print(l)
 
 #below line are same as above 4 lines, conprehensive
 print([person for person in names])
-
-
+######################################
+names.insert(1, "raheel")
+print(names)
+######################################
 x = []
 for person in names:
     x.append(person + ' dump')
