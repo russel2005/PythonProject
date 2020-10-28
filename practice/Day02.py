@@ -44,6 +44,7 @@ print(digits[-1])
 
 print(digits[:3])#begin to 3-1
 print(digits[5:])#from 5 to end
+print(digits[1:6])#print 2,3,4,5,6, index 1 to 5, starting index is inclusive, ending index is exclusive
 print(digits[1:10:2])#increment by 2
 print(digits[::-2])#backward and increment by 2
 
