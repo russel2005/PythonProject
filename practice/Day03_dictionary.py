@@ -34,4 +34,8 @@ d['one'] = 1
 d['two'] = 2
 print(d)
 
+# Nested Dictionary:
+cars = {'bmw': {'model': '328i', 'year':2016}, 'benz': {'model': 'E330', 'year':2018}}
+bmw_model = cars['bmw']['model']
+print(bmw_model)
 
