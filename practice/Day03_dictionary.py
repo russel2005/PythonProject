@@ -1,4 +1,4 @@
-# dictionary is key and value pairs
+# dictionary is key and value pairs, no sequenced, no indexing > only Mapping, use {} brackets
 # python 3.7 by default added order list
 groceries = {'banana': .29, 'orange': 1.29, 'apple': 1.49}
 
@@ -27,5 +27,11 @@ contacts ={
     'arish': ['212-345-3333', 'arish@gmail.com']
 }
 
+# declare empty dictionary
+d = {}
+# adding value
+d['one'] = 1
+d['two'] = 2
+print(d)
 
 
