@@ -21,6 +21,10 @@ print(groceries)
 # print dictionary
 for g in groceries:
     print(g + "" + str(groceries[g]))
+    
+#or
+for k,v in groceries.items():
+    print(k + "" + v)
 
 #print order by values
 
