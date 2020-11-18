@@ -18,6 +18,9 @@ print(groceries)
 #groceries.values()
 #groceries.popitem()
 
+# print dictionary
+for g in groceries:
+    print(g + "" + str(groceries[g]))
 
 #print order by values
 
