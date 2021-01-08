@@ -10,35 +10,27 @@ basic to advanced
 `$ sudo pip install wheel`
 
 ## find the list of package
-`$ pip list`
-`$ pip show wheel`
+`$ pip list` , `$ pip show wheel`
 
-# uninstall package
-$ sudo pip uninstall wheel
+## uninstall package
+`$ sudo pip uninstall wheel`
 
-# activate environment variable
-$ source venv/bin/activate
-$ deactivate
+## activate/deactivate environment 
+`$ source venv/bin/activate` | 
+`$ deactivate`
 
-# iphthon will install all dependency
-$ sudo pip install iphthon
+#============== virtual enviromnent setup ===============
+###1.create
+`$ python -m venv my-test-venv-1` --it will create folder in the current location
 
-============== virtual enviromnent setup ===============
-#1.create
-$ python -m venv my-test-venv-1
---it will create folder in the current location
+###2.activate
+`$ my-test-venv-1/Scripts/activate`
 
-#2.activate
-$ my-test-venv-1/Scripts/activate
-
-#3. install package into custom venv
-$ pip installl packagename
-
-#4. check all installed venv packagename
-$pip list
+##3. install package into custom venv
+`$ pip installl packagename`
 
 #4. deactivate
-$ deactivate
+`$ deactivate`
 #========================================================
 
 #create new virtual env venv02 from existing another custom virtual env venv01
