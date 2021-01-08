@@ -19,17 +19,17 @@ basic to advanced
 `$ source venv/bin/activate` | 
 `$ deactivate`
 
-#============== virtual enviromnent setup ===============
-###1.create
+# ============== virtual enviromnent setup ===============
+### 1.create
 `$ python -m venv my-test-venv-1` --it will create folder in the current location
 
-###2.activate
+### 2.activate
 `$ my-test-venv-1/Scripts/activate`
 
-##3. install package into custom venv
+## 3. install package into custom venv
 `$ pip installl packagename`
 
-#4. deactivate
+# 4. deactivate
 `$ deactivate`
 #========================================================
 
