@@ -1,17 +1,17 @@
 # PythonProject
 basic to advanced
 ## find the python version
-`$ python -V`  ### note V should be CAPITAL
+`$ python -V`  note: V should be CAPITAL
 
-# install pip
-$ python -m pip install --upgrade pip
+## install pip
+`$ python -m pip install --upgrade pip`
 
-# install python package
-$ sudo pip install wheel
+## install python package
+`$ sudo pip install wheel`
 
-# find the list of package
-$ pip list
-$ pip show wheel
+## find the list of package
+`$ pip list`
+`$ pip show wheel`
 
 # uninstall package
 $ sudo pip uninstall wheel
