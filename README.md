@@ -42,12 +42,14 @@ basic to advanced
 ### 3. see the list from requirements.txt
 `$ more requirements.txt`
 ### 4. move it into new venv02
-`(venv01) {location of your virtual env} $deactivate`
-`$ python -m venv venv02`
-`$ venv02/Scripts/activate`
+`(venv01) {location of your virtual env} $deactivate` | 
+`$ python -m venv venv02` | 
+`$ venv02/Scripts/activate` |
 `$ pip install -r requirements.txt`
 ### 5. now check all installed pacakes from old env to new env
 `$ pip list`
+### =========================
+
 ## Better way to create virtual environments in windows machine:
 ### 1. Install package 
 `$ pip install virtualenvwrapper-win`
