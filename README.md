@@ -1,6 +1,6 @@
 # PythonProject
 basic to advanced
-# find the python version
+## find the python version
 $ python -V
 # note V should be CAPITAL
 
