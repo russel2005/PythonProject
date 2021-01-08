@@ -34,7 +34,7 @@ basic to advanced
 `$ deactivate`
 ### =========================
 
-## Create new virtual environment `venv02` from existing another custom virtual environment `venv01`
+## Create new virtual environment `venv02` from existing another custom virtual environment `venv01`:
 ### 1. go and activate custom virtual env
 `$ venv01/Scripts/activate`
 ### 2. create package list from current venv with version and put it in the .txt file
@@ -48,7 +48,7 @@ basic to advanced
 `$ pip install -r requirements.txt`
 ### 5. now check all installed pacakes from old env to new env
 `$ pip list`
-# Better way to create virtual environments in windows machine.
+## Better way to create virtual environments in windows machine:
 ### 1. Install package 
 `$ pip install virtualenvwrapper-win`
 
@@ -56,10 +56,8 @@ basic to advanced
 `$ mkvirtualenv new-venv-name`
 
 ### 3. list all created virtual env
-$ workon
+`$ workon`
  
 ### 4. switch one environment to another env
-$ workon env-name
-
-
+`$ workon env-name`
 
