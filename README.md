@@ -19,7 +19,8 @@ basic to advanced
 `$ source venv/bin/activate` | 
 `$ deactivate`
 
-## ============== virtual enviromnent setup ===============
+### ========================= 
+## virtual enviromnent setup:
 ### 1.create
 `$ python -m venv my-test-venv-1` --it will create folder in the current location
 
@@ -31,9 +32,9 @@ basic to advanced
 
 ### 4. deactivate
 `$ deactivate`
-### ========================================================
+### =========================
 
-## create new virtual environment `venv02` from existing another custom virtual environment `venv01`
+## Create new virtual environment `venv02` from existing another custom virtual environment `venv01`
 ### 1. go and activate custom virtual env
 `$ venv01/Scripts/activate`
 ### 2. create package list from current venv with version and put it in the .txt file
