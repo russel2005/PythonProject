@@ -1,8 +1,7 @@
 # PythonProject
 basic to advanced
 ## find the python version
-$ python -V
-# note V should be CAPITAL
+`$ python -V`  ### note V should be CAPITAL
 
 # install pip
 $ python -m pip install --upgrade pip
