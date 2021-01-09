@@ -63,3 +63,5 @@ basic to advanced
 ### 4. switch one environment to another env
 `$ workon env-name`
 
+## Delete the environment
+`$ rmdir venv01 /s` -- here /s means subfolder will be deleted, you can also manually delete folder in windows.
