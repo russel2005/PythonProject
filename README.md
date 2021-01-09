@@ -32,6 +32,10 @@ basic to advanced
 
 ### 4. deactivate
 `$ deactivate`
+
+### 5. create virtual env from python system packages which you already installed
+`$ python -m venv venv --system-site-packages` --here 2nd venv is the virtual
+
 ### =========================
 
 ## Create new virtual environment `venv02` from existing another custom virtual environment `venv01`:
