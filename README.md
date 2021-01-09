@@ -10,7 +10,7 @@ basic to advanced
 `$ sudo pip install wheel`
 
 ### Find the list of package
-`$ pip list` , `$ pip show wheel`
+`$ pip list` | `$ pip freeze` | `$ pip show wheel`
 
 ### Uninstall package
 `$ sudo pip uninstall wheel`
