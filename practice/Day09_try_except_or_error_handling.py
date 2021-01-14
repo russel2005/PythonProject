@@ -43,6 +43,8 @@ try:
 		raise Exception 
 except FileNotFoundError as e:
 	print(e)
+	# or raise exception in except block to handle this exception into another method when call
+	raise Exception("This is another raise exception")
 except Exception as e:
 	print(e)
 else:
