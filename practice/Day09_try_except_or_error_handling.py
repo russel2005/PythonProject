@@ -1,4 +1,14 @@
-####################
+
+########try and except ############
+
+try:
+	f = open('testfile.txt')
+	val = bad_val
+except FileNotFoundError as e:
+	print(e)
+except Exception as e:
+	print(e)
+#########try except else and finally block###########
 try:
 	f = open('testfile.txt')
 except FileNotFoundError:
@@ -10,15 +20,6 @@ else:
 	print('it raise/execute if try block not catch anything
 finally:
 	pass
-####################
-
-try:
-	f = open('testfile.txt')
-	val = bad_val
-except FileNotFoundError as e:
-	print(e)
-except Exception as e:
-	print(e)
 
 #################
 try:
@@ -29,13 +30,16 @@ except FileNotFoundError as e:
 except Exception as e:
 	print(e)
 else:
-	print('else block only run when we don't have an exception')
+	print("else block only run when we don't have an exception")
 	print(f.read())
 	f.close()
 finally:
 	#print('always this block run')
 	print('Executing finally...')
 
+########### catch multiple exceptions in one block
+except (RuntimeError, TypeError, NameError):
+    pass
 ################# Manually raise an exception
 try:
 	f = open('currupt_file.txt')
