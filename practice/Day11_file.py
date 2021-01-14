@@ -41,3 +41,15 @@ with open("firstfile.txt", "w") as with_as_write:
 print("with as read start")
 with open("firstfile.txt", "r") as with_as_read:
     print(str(with_as_read.read()))
+## If you’re not using the with keyword, then you should call f.close() to close the file and immediately free up any system resources used by it.
+
+##For reading lines from a file, you can loop over the file object. This is memory efficient, fast, and leads to simple code:
+for line in f:
+    print(line, end='')  #If you want to read all the lines of a file in a list you can also use list(f) or f.readlines().
+    
+with open('text.txt', 'r') as f:
+    #print(f.readline()) ### read one line
+    #print(f.read()) ### read all lines
+    for line in f:
+        if line.__contains__('two'):
+            print(line, end='')
