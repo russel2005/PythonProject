@@ -42,7 +42,7 @@ basic to advanced
 ### 1. go and activate custom virtual env
 `$ venv01/Scripts/activate`
 ### 2. create package list from current venv with version and put it in the .txt file
-(venv01) {location of your virtual env} `$ pip freeze > requirements.txt`
+(venv01) {location of your virtual env} `$ pip freeze > requirements.txt` | `$ pip freeze --local > requirements.txt`
 ### 3. see the list from requirements.txt
 `$ more requirements.txt`
 ### 4. move it into new venv02
