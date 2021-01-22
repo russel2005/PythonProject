@@ -69,7 +69,7 @@ basic to advanced
 
 ## Delete the environment
 `$ rmdir venv01 /s` -- here /s means subfolder will be deleted, you can also manually delete folder in windows.
-
+`$ rm -rf env-name/`
 ## Open Command Prompt and enter `pip install virtualenv`
 Download the desired python version (do NOT add to PATH!), and remember the path\to\new_python.exe of the newly installed version
 To create a virtualenv, open Command Prompt and enter
