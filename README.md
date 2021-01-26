@@ -59,7 +59,8 @@ basic to advanced
 `$ pip install virtualenvwrapper-win`
 
 ### 2. create centralize location or folder of all virtual env
-`$ mkvirtualenv new-venv-name`
+`$ mkvirtualenv new-venv-name` or 
+`$ mkvirtualenv regression -p c:\Python35\python.exe`
 
 ### 3. list all created virtual env
 `$ workon`
