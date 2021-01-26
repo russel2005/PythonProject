@@ -63,12 +63,13 @@ basic to advanced
 `$ mkvirtualenv regression -p c:\Python35\python.exe`
 
 ### 3. list all created virtual env
-`$ workon`
+`$ workon` or `lsvirtualenv`
  
 ### 4. switch one environment to another env
 `$ workon env-name`
 
 ## Delete the environment
+`rmvirtualenv <name>` or 
 `$ rmdir venv01 /s` -- here /s means subfolder will be deleted, you can also manually delete folder in windows.
 `$ rm -rf env-name/`
 ## Open Command Prompt and enter `pip install virtualenv`
