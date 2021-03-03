@@ -4,8 +4,8 @@ basic to advanced
 `$ python -V`  note: V should be CAPITAL
 
 ### Find PIP version
-`$ $ python -m pip --version
-pip X.Y.Z from .../site-packages/pip (python X.Y)`
+`$ python -m pip --version` | 
+pip X.Y.Z from .../site-packages/pip (python X.Y)
 ### Upgrade pip
 `$ python -m pip install --upgrade pip`
 
