@@ -3,7 +3,10 @@ basic to advanced
 ## Find the python version
 `$ python -V`  note: V should be CAPITAL
 
-### Install pip
+### Find PIP version
+`$ $ python -m pip --version
+pip X.Y.Z from .../site-packages/pip (python X.Y)`
+### Upgrade pip
 `$ python -m pip install --upgrade pip`
 
 ### Install python package
