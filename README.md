@@ -75,6 +75,30 @@ pip X.Y.Z from .../site-packages/pip (python X.Y)
 `rmvirtualenv <name>` or 
 `$ rmdir venv01 /s` -- here /s means subfolder will be deleted, you can also manually delete folder in windows.
 `$ rm -rf env-name/`
+## create Virtual Env with virtualenvwrapper-win for windows machine
+create virtual env:
+Step1) opem powershell > window status bar> search> powr
+Step2) install virtualenvwarapper-win
+`pip install virtualenvwrapper-win`
+Step3) check any exist virtual env exist
+`workon`
+Step4) create new virtual env
+`mkvirtualenv test`
+Step5) in windows powershell > `notepad $profile`
+Step6) write:
+`function psworkon ($env) {
+& ~\Envs\$env\Scripts\activate.ps1
+}
+
+Set-PSReadLineOption -colors @{
+  Operator           = 'Cyan'
+  Parameter          = 'Cyan'
+  String             = 'White'
+}`
+Step7) run >`.$profile`
+Step8) run> `Set-ExecutionPolicy remotesigned`
+Step9) run> `psworkon test`
+
 ## Open Command Prompt and enter `pip install virtualenv`
 Download the desired python version (do NOT add to PATH!), and remember the path\to\new_python.exe of the newly installed version
 To create a virtualenv, open Command Prompt and enter
