@@ -14,14 +14,14 @@ PyTest Testing Framework:
 # when you define fixture scope to the calss only, it will run once before class is initiated at the end
 
 
-install pytest > pip install pytest
+Install 'pytest' > pip install pytest
 or
 py -m pip install    packagename
 py -m pip --install  packagename
 py -m pip --upgrade  packagename
 py -m pip upgrade    packagename
 
-version > pytest --version
+Version > pytest --version
 
 html report> pip install pytest-html
 run> pytest --html=report.html
