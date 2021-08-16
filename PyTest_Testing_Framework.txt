@@ -97,6 +97,7 @@ conftest.py available for all test.
 
 
 if we want to run setup before all test case run and yeild(teardown) will run after all testcases then:
+SCOPE: function, class, module, package, session
 --------------------------------------------------------------------------------------------------------
 conftest.py
 ============
