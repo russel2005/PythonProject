@@ -12,8 +12,11 @@ def outer_function():
   
   def inner_function():
     print(msg)
-  return inner_function()
+  return inner_function
 
 outer_function() //output: Hi
   
-  
+my_func = outer_function() // it is not running the fuction, because my_func is pointing the same function: outer_function.
+my_func() //now it is running the function
+
+    
