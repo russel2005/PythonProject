@@ -1,0 +1,22 @@
+import random
+import csv
+
+"""UNIQUEID,FIRSTNAME,LASTNAME,DATEOFBIRTH,UIN,ADDRESS1,ADDRESS2,CITY,STATE,ZIP,SCORINGDATE,ORIGWONUM"""
+a = (",LEVI,ROMAGUERA,1980-02-06,453329182,1006 Windward Concourse Street,,Alpharetta,GA,30005,2023-04-07,api_new_AE_data",
+     ",Serena,Williams,          ,786320108,32,Maple Ave,Upper Darby,PA,19082,2023-04-07, DOB as Blank",
+     ",Serena,Williams,1986-06-08,786320108,32,Maple Ave,Upper Darby,PA,19082,2023-04-07,incorrect DOB",
+     ",Serena,Williams,1985-06-08,786320108,32 Maple Ave,,Upper Darby,PA,19082,2023-04-07,Address 2 as blank",
+     ",Serena,Williams,1985-06-08,786320111,32,Maple Ave,Upper Darby,PA,19082,2023-04-07,ssn in correct",
+     ",Serena,Williams,1985-06-08,786320108,32,Maple Ave,Upper Darby,PA,19082,2023-04-07,valid AE_record",
+",Serena,Williams,1985-06-08,786320108,32,Maple Ave,Upper Darby,PA,19082,2023-04-07,valid AE_record")
+
+with open('C:/Users/0511/PA_1M_0511_uat.csv', 'w', encoding='UTF8') as f:
+    # write a row to the csv file
+    for i in range(1,1000001):
+        id = "{:07d}".format(i)
+        print(id)
+        data = id + str(random.choice(a))+'\n'
+        print(str(i))
+        f.write(data)
+
+
