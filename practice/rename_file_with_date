@@ -1,0 +1,13 @@
+import os
+from datetime import date
+
+today = str(date.today())
+print(today)
+
+# PA Absolute path of a file
+pa_old_name = r"C:\Users\txi17\Documents\__Teletrack\__Teletrack_SPF_Batch\UAT\109_prescreen_append\0420\SFT2018RP133_prescreen_append_1_SmokeTest_0420-v1.csv.pgp"
+pa_new_name = r"C:\Users\txi17\Documents\__Teletrack\__Teletrack_SPF_Batch\UAT\109_prescreen_append\0420\SFT2018RP133_prescreen_append_1_SmokeTest_"+today+".csv.pgp"
+# Prescreen Append Renaming the file
+os.rename(pa_old_name, pa_new_name)
+
+
