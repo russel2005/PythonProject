@@ -1,0 +1,10 @@
+
+
+with open(r"C:\Users\txi17\Documents\__Teletrack\__Teletrack_SPF_Batch\UAT\ALL_onboard\PE\SFT1516BP144\ouput\prescreen_extract_0419.csv.gz", 'r') as fp:
+    num_lines = sum(1 for line in fp)
+    print('Total lines:', num_lines)
+
+with open(r"C:\Users\txi17\Documents\__Teletrack\__Teletrack_SPF_Batch\UAT\ALL_onboard\PE\SFT1516BP144\ouput\prescreen_extract_0419.csv.gz", 'r') as fp:
+    num_lines = sum(1 for line in fp if line.rstrip())
+    print('Total lines:', num_lines)
+    print('Exclude empty line')
