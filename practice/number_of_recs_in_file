@@ -8,3 +8,7 @@ with open(r"C:\Users\txi17\Documents\__Teletrack\__Teletrack_SPF_Batch\UAT\ALL_o
     num_lines = sum(1 for line in fp if line.rstrip())
     print('Total lines:', num_lines)
     print('Exclude empty line')
+    
+
+with open(r"C:\Users\txi17\Documents\prescreen_extract_0419.csv", 'r') as fp:
+    print('1st record in file:', fp.readline())
