@@ -5,8 +5,10 @@ for person in names:
     l.append(person)
 print(l)
 
-#below line are same as above 4 lines, conprehensive
+#below line are same as above 4 lines, comprehensive
 print([person for person in names])
+upper_names = [person.upper() for name in names]
+print(upper_names)
 ######################################
 names.insert(1, "raheel")
 print(names)
