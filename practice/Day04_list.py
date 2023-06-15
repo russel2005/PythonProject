@@ -42,3 +42,16 @@ print(best_ratings)
 #or
 print([movie for movie in movies_ratings if movies_ratings[movie] > 6])
 ###############################
+
+bits = [False, True, False, False, True]
+new_bits = []
+for b in bits:
+    if b == True:
+        new_bits.append(1)
+    else:
+        new_bits.append(0)
+#list comprehension
+super_bits = [1 if b == True else 0 for b in bits]
+print(new_bits)
+print(super_bits)
+###############################
