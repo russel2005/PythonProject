@@ -11,8 +11,9 @@ screen_witdh, screen_height = pyautogui.size()
 print("Screen size {}x{}".format(screen_witdh, screen_height))
 
 # Set the total duration in munites
-total_minutes = 70
-print("Start time:", datetime.now().strftime("%H:%M:%S"))
+total_minutes = 2
+# print("Start time:", datetime.now())
+print("Start time:", datetime.now().strftime("%Y-%m-%d %I:%M %p"))
 
 try:
     for remaining_minutes in reversed(range(total_minutes)):
@@ -20,8 +21,10 @@ try:
         x = random.randint(300, screen_witdh - 1)
         pyautogui.moveTo(x, 500, 2, pyautogui.easeOutQuad)
         # Perform a click at the current position
+        time.sleep(60*3)
         pyautogui.click()
         print("Time remaining: ", remaining_minutes, " mins")
-        time.sleep(60*3)
 except KeyboardInterrupt:
     print("Process terminated by user")
+
+print("End time:", datetime.now().strftime("%Y-%m-%d %I:%M %p"))
